@@ -8,32 +8,31 @@ if (numberDayOfWeek < 1 || numberDayOfWeek > 7)
     Console.WriteLine("Введен не правильный номер");
     return;
 }
-
-if (numberDayOfWeek == 1);
+if (numberDayOfWeek == 1)
 {
     Console.WriteLine("Понедельник");
 }
-if (numberDayOfWeek == 2);
+if (numberDayOfWeek == 2)
 {
     Console.WriteLine("Вторник");
 }
-if (numberDayOfWeek == 3);
+if (numberDayOfWeek == 3)
 {
     Console.WriteLine("Среда");
 }
-if (numberDayOfWeek == 4);
+if (numberDayOfWeek == 4)
 {
     Console.WriteLine("Четверг");
 }
-if (numberDayOfWeek == 5);
+if (numberDayOfWeek == 5)
 {
     Console.WriteLine("Пятница");
 }
-if (numberDayOfWeek == 6);
+if (numberDayOfWeek == 6)
 {
     Console.WriteLine("Суббота");
 }
-if (numberDayOfWeek == 7);
+if (numberDayOfWeek == 7)
 {
     Console.WriteLine("Воскресенье");
 }
