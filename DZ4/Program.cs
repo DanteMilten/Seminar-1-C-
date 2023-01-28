@@ -11,7 +11,7 @@ Console.Write("Введите число b: ");
 int b = int.Parse(Console.ReadLine());
 Console.Write("Введите число c: ");
 int c = int.Parse(Console.ReadLine());
-int max;
+int max=a;
 if(a>b & a>c){
     max = a;
 } else if(b>a & b>c){
