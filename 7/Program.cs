@@ -5,6 +5,7 @@
 //	918 -> 8
 
 Console.Clear();
+Console.WriteLine("Первый метод");
 Console.Write("ВВедите трехзначное число: ");
 int num = int.Parse(Console.ReadLine());
 if (num < 100 || num > 999){
@@ -12,4 +13,9 @@ if (num < 100 || num > 999){
     return;
 }
 int otvet = num % 10;
-Console.WriteLine($"3 цифра: {otvet} ");
+Console.WriteLine($"3 цифра: {otvet}");
+Console.WriteLine("---------------------");
+Console.WriteLine("Второй метод");
+string number = Console.ReadLine();
+string otvet2 = Convert.ToString(number[2]);
+Console.WriteLine($"3 цифра: {otvet2}");
